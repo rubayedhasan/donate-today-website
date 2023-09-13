@@ -71,7 +71,8 @@ header .description{
 }
 
 /* objective section styles */
-.objective{
+.objective,
+.our-plan{
     margin: 130px 0;
     text-align: center;
 }
@@ -106,4 +107,43 @@ header .description{
     margin-top: 60px;
     padding-bottom: 12px;
     border-bottom: 1px solid #B3B3B3;
+}
+
+/* our-plan section styles  */
+.working-cariculam{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.progress{
+    padding: 55px 23px;
+}
+
+.progress-title{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0 16px;
+}
+
+.progress-description{
+    color:#707070;
+}
+.color-skyblue{
+    background-color: #EDF5F6;
+    border-radius: 10px;
+}
+
+.color-lightpink{
+    background-color: #FFEEEE;
+    border-radius: 10px;
+}
+
+.color-whitepink{
+    background-color: #FFF4D6;
+    border-radius: 10px;
 }
