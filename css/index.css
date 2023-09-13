@@ -37,9 +37,8 @@ li{
     margin-bottom: 20px;
 }
 
-..description{
+.description{
     color: #707070;
-    color: #b6b2b2;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
@@ -73,7 +72,7 @@ header .description{
 /* objective section styles */
 .objective,
 .our-plan{
-    margin: 130px 0;
+    margin: 130px 0 0;
     text-align: center;
 }
 
@@ -146,4 +145,26 @@ header .description{
 .color-whitepink{
     background-color: #FFF4D6;
     border-radius: 10px;
+}
+
+/* our-blogs section styles */
+
+.our-blogs{
+    margin-top: 150px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    margin-bottom: 100px;
+}
+
+.blog .blog-content .description{
+    margin-top: 20px;
+}
+
+.blog .blog-image img{
+    width: 100%;
+    border-radius: 5px;
 }
