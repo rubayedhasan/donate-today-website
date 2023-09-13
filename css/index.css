@@ -29,6 +29,21 @@ li{
     display: inline-block;
 }
 
+.title{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+..description{
+    color: #707070;
+    color: #b6b2b2;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* header section styles */
 header{
     background-image: url("../images/donation2.jpg");
@@ -51,8 +66,44 @@ header .banner-title{
     margin-bottom: 20px;
 }
 
-header .banner-description{
+header .description{
     color: #b6b2b2;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+}
+
+/* objective section styles */
+.objective{
+    margin: 130px 0;
+    text-align: center;
+}
+
+.donate-money{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.amount p{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    padding: 45px 25px;
+    background-color: #e7e7e7b0;
+    border-radius: 5px;
+    transition: background-color 1s ease-in-out, border 1s ease-in;
+}
+
+.amount:hover p{
+    color: #FF5959;
+    border: 1px solid #FF5959;    
+    background-color: #ff595998;    
+    transition: background-color 2s ease-in-out, border 1s ease-in;
+}
+
+.objective .donate-money-text{
+    color: #B3B3B3;
+    margin-top: 60px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #B3B3B3;
 }
